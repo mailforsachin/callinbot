@@ -9,7 +9,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 
 // Create calling bot
 var connector = new calling.CallConnector({
-    callbackUrl: 'https://<your host>/api/calls',
+    callbackUrl: 'https://euccallingbot.azurewebsites.net/api/calls',
     appId: '73762026-a2b2-4470-93c4-f8827610a931',
     appPassword: 'yhevvIKV11(*dlBAZT566|^'
 });
